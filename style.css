@@ -1,0 +1,47 @@
+/* TODO: design your profile with CSS */
+/* --- Google Fonts & other Stylesheets --- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background: #F4F4F4;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto auto;
+  max-width: 900px;
+}
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  text-align: right;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.opacity-zero {
+  opacity: 0;
+}

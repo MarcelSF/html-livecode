@@ -1,0 +1,55 @@
+.card-container {
+  width: 240px;
+}
+
+@media (max-width: 1900px) {
+  .card-container {
+    width: 640px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .card-container {
+    width: 480px;
+  }
+}
+
+.cards-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-white {
+  background: white;
+  padding: 8px;
+}
+
+.card-white-image {
+  padding: 8px 4px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/random");
+}
+
+.card-white i {
+  color: grey;
+}
+
+.card-footer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-footer img {
+  margin-right: 8px;
+}
+
+
+.card-white:hover .opacity-zero {
+  opacity: 1;
+}
+
