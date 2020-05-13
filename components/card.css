@@ -2,18 +2,6 @@
   width: 240px;
 }
 
-@media (max-width: 1900px) {
-  .card-container {
-    width: 640px;
-  }
-}
-
-
-@media (max-width: 1200px) {
-  .card-container {
-    width: 480px;
-  }
-}
 
 .cards-container {
   margin: auto;
